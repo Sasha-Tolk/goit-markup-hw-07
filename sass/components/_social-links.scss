@@ -17,8 +17,9 @@
   }
   .social-icon-list {
     display: flex;
+    align-self: center;
+    vertical-align: middle;
     flex-basis: 206px;
-    margin-bottom: 30px;
     fill: var(--icons-color);
 
     &__item:not(:nth-last-child(1)) {
@@ -30,3 +31,7 @@
     border-radius: 50px;
     fill: var(--main-color);
   }
+  @media screen and (min-width:768px) {
+    .social-icon-list {
+      margin-left: 74px;
+  }}

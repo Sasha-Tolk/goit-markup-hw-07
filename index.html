@@ -74,7 +74,7 @@
                             </li>
                     </ul>
                     <label class="modal__label" for="comment">Комментарий</label>
-                    <textarea class="modal__textarea" id="comment" cols="44" rows="5" placeholder="Введите текст"></textarea>
+                    <textarea class="modal__textarea" id="comment" cols="49" rows="5" placeholder="Введите текст"></textarea>
                 <div class="modal__checkbox-div">
                     <label class="modal__checkbox-label">
                         <input class="modal__checkbox" type="checkbox">
@@ -137,9 +137,36 @@
                 <div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
                 <ul class="what-we-do__list">
-                    <li class="what-we-do__item"><img src="./images/написание-кода.jpg" alt="Написание кода" width="370"/><h3 class="what-we-do__subtitle">Десктопные приложения</h3></li>
-                    <li class="what-we-do__item"><img src="./images/дизайн.jpg" alt="Дизайн сайта" width="370"/><h3 class="what-we-do__subtitle">Мобильные приложения</h3></li>
-                    <li class="what-we-do__item"><img src="./images/оформление.jpg" alt="Оформление сайта" width="370"/><h3 class="what-we-do__subtitle">Дизайнерские решения</h3></li>
+                    <li class="what-we-do__item">
+                        <picture>
+                            <source media="(min-width:1200px)"
+                            srcset="./images/box1.jpg 1x, ./images/box 1@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/box1.webp 1x, ./images/box 1@2x.webp 2x"
+                            type="image/webp">
+                            <img src="" alt="Написание кода" />
+                        </picture>
+                        <h3 class="what-we-do__subtitle">Десктопные приложения</h3></li>
+                    <li class="what-we-do__item">
+                        <picture>
+                            <source media="(min-width:1200px)"
+                            srcset="./images/box2.jpg 1x, ./images/box2@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/box2.webp 1x, ./images/box2@2x.webp 2x"
+                            type="image/webp">
+                            <img src="" alt="Дизайн сайта" />
+                        </picture>
+                        <h3 class="what-we-do__subtitle">Мобильные приложения</h3></li>
+                    <li class="what-we-do__item">
+                        <picture>
+                            <source media="(min-width:1200px)"
+                            srcset="./images/box3.jpg 1x, ./images/box3@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/box3.webp 1x, ./images/box3@2x.webp 2x"
+                            type="image/webp">
+                            <img src="" alt="Оформление сайта" />
+                        </picture>
+                        <h3 class="what-we-do__subtitle">Дизайнерские решения</h3></li>
                 </ul>
                 </div>
             </section>
@@ -149,7 +176,27 @@
                 <h2 class="title">Наша команда</h2>
                 <ul class="our-team__list">
                     <li class="our-team__photos">
-                        <img src="./images/product-designer.jpg" alt="Product Designer" width="270"/>
+                        <picture>
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team1.jpg 1x, ./images/mobile/team1@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team1.webp 1x, ./images/mobile/team1@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:768px)"
+                            srcset="./images/tablet/team1.jpg 1x, ./images/tablet/team1@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/tablet/team1.webp 1x, ./images/tablet/team1@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:280px)"
+                            srcset="./images/deckstope/team1.jpg 1x, ./images/deckstope/team1@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/deckstope/team1.webp 1x, ./images/deckstope/team1@2x.webp 2x"
+                            type="image/webp">
+
+                            <img src="" alt="Product Designer" />
+                        </picture>
                         <div class="our-team__description">
                         <h3 class="our-team__subtitle">Игорь Демьяненко</h3>
                         <p class="our-team__text" lang="en"> Product Designer</p>
@@ -186,7 +233,27 @@
                         </div>
                     </li>
                     <li class="our-team__photos">
-                        <img src="./images/frontend-developer.jpg" alt="Frontend Developer" width="270"/>
+                        <picture>
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team2.jpg 1x, ./images/mobile/team2@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team2.webp 1x, ./images/mobile/team2@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:768px)"
+                            srcset="./images/tablet/team2.jpg 1x, ./images/tablet/team2@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/tablet/team2.webp 1x, ./images/tablet/team2@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:280px)"
+                            srcset="./images/deckstope/team2.jpg 1x, ./images/deckstope/team2@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/deckstope/team2.webp 1x, ./images/deckstope/team2@2x.webp 2x"
+                            type="image/webp">
+
+                            <img src="" alt="Frontend Developer" />
+                        </picture>
                         <div class="our-team__description">
                         <h3 class="our-team__subtitle">Ольга Репина</h3>
                         <p class="our-team__text" lang="en">Frontend Developer</p>
@@ -223,7 +290,27 @@
                         </div>
                     </li>
                     <li class="our-team__photos">
-                        <img src="./images/marketing.jpg" alt="Marketing" width="270" />
+                        <picture>
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team3.jpg 1x, ./images/mobile/team3@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team3.webp 1x, ./images/mobile/team3@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:768px)"
+                            srcset="./images/tablet/team3.jpg 1x, ./images/tablet/team3@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/tablet/team3.webp 1x, ./images/tablet/team3@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:280px)"
+                            srcset="./images/deckstope/team3.jpg 1x, ./images/deckstope/team3@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/deckstope/team3.webp 1x, ./images/deckstope/team3@2x.webp 2x"
+                            type="image/webp">
+
+                            <img src="" alt="Marketing" />
+                        </picture>
                         <div class="our-team__description">
                         <h3 class="our-team__subtitle">Николай Тарасов</h3>
                         <p class="our-team__text" lang="en">Marketing</p>
@@ -260,7 +347,27 @@
                         </div>
                     </li>
                     <li class="our-team__photos">
-                        <img src="./images/ui-designer.jpg" alt="UI Designer" width="270" />
+                        <picture>
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team4.jpg 1x, ./images/mobile/team4@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/mobile/team4.webp 1x, ./images/mobile/team4@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:768px)"
+                            srcset="./images/tablet/team4.jpg 1x, ./images/tablet/team4@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/tablet/team4.webp 1x, ./images/tablet/team4@2x.webp 2x"
+                            type="image/webp">
+
+                            <source media="(min-width:280px)"
+                            srcset="./images/deckstope/team4.jpg 1x, ./images/deckstope/team4@2x.jpg 2x">
+                            <source media="(min-width:1200px)"
+                            srcset="./images/deckstope/team4.webp 1x, ./images/deckstope/team4@2x.webp 2x"
+                            type="image/webp">
+
+                            <img src="" alt="UI Designer" />
+                        </picture>
                         <div class="our-team__description">
                         <h3 class="our-team__subtitle">Михаил Ермаков</h3>
                         <p class="our-team__text" lang="en">UI Designer</p>
@@ -397,10 +504,8 @@
                 <p class="join-us__text">Подпишитесь на рассылку</p>
                 <input type="email" class="form__input" name="mail" id="subscribe" placeholder="E-mail">
             </div>
-            <button class="button form__button" type="submit">Подписаться 
-                <svg width="24" height="24"><use href="./icons/icons.svg#icon-icon-send" ></use></svg>
+            <button class="button form__button" type="submit">Подписаться<svg class="buttton-icon" width="24" height="24"><use href="./icons/icons.svg#icon-icon-send"></use></svg>
             </button>
-            </div>
         </footer>
 <script src="./js/modal.js"></script>
     </body>
