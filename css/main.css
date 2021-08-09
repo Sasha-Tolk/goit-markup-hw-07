@@ -101,6 +101,7 @@ p {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 .title {
   font-size: 28px;
   font-weight: 700;
@@ -117,6 +118,8 @@ p {
   }
 }
 
+=======
+>>>>>>> fcac1488e58d30481bada83382c6bf3617d38ab0
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
@@ -226,6 +229,7 @@ p {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 @media (min-device-pixel-ratio: 2) and (min-width: 280px), (min-resolution: 192dpi) and (min-width: 280px), (min-resolution: 192dppx) and (min-width: 280px) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/mobile/bg-main@2x.jpg");
@@ -276,6 +280,14 @@ p {
     line-height: 1.36;
     max-width: 696px;
   }
+=======
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.22;
+  text-align: center;
+  margin-bottom: 50px;
+>>>>>>> fcac1488e58d30481bada83382c6bf3617d38ab0
 }
 
 .features {
@@ -399,6 +411,10 @@ p {
 }
 
 .our-team__subtitle {
+<<<<<<< HEAD
+=======
+  margin-top: 30px;
+>>>>>>> fcac1488e58d30481bada83382c6bf3617d38ab0
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -594,7 +610,11 @@ footer .container {
   border-color: transparent;
 }
 
+<<<<<<< HEAD
 .backdrop {
+=======
+.hero__backdrop {
+>>>>>>> fcac1488e58d30481bada83382c6bf3617d38ab0
   position: fixed;
   top: 0px;
   left: 0px;
